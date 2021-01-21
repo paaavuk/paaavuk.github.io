@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+h1 {
+  font-size: 3rem;
+  padding-bottom: 10px;
+}
+h2 {
+  font-size: 2rem;
+  padding-bottom: 8px;
+}
+h3 {
+  font-size: 1.8rem;
+  margin-bottom: 6px;
+}
+h4 { font-size: 1.6rem; }
+h5 { font-size: 1.4rem; }
+h6 { font-size: 1.2rem; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #0001;
+  font-size: 10px;
+  /*
+    for rem use
+    1rem = 10px;
+  */
+}
+
+a {
+  transition: .3s;
+  padding: 1px;
+  color: #000;
+}
+a:hover, a:active {
+  background-color: #404040;
+  color: #fff;
+}
+
+.wrapper {
+  box-shadow: 0 0 15px #0003;
+  background-color: #fff;
+  margin: 100px auto;
+  max-width: 1000px;
+  width: 1000px;
+  font-size: 1.2rem;
+}
+
+.header {
+  background-color: #404040;
+  padding: 50px 0px 50px 350px;
+  color: #fff;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.header > h1 {
+  font-weight: bolder;
+  text-transform: uppercase;
+
+}
+.proffesion {
+  font-size: 1rem;
+  color: #fff9;
+}
+.header:hover #please {
+  visibility: visible;
+}
+/* #please {
+  visibility: hidden;
+} */
+
+
+.main-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.sidebar {
+  max-width: 315px;
+  padding: 35px;
+}
+.photo {
+  background: url('../img/photo.jpg') round;
+  border-radius: 50%;
+  margin: -160px auto 35px;
+  border: 2px solid #0008;
+  top: -125px;
+  height: 250px;
+  width: 250px;
+}
+.sidebar-block, .main-block {
+  margin-bottom: 25px;
+  font-size: 0.9rem;
+  color: #0008
+}
+.sidebar-block table {
+  width: 100%;
+}
+.sidebar-block table tr td:nth-child(2) {
+  padding-left: 5px;
+}
+.sidebar-block progress {
+  background-color: #0002;
+  color: #404040;
+  float: right;
+  height: 0.8rem;
+  width: 8rem;
+}
+
+::-webkit-progress-bar {
+    background-color: #0006;
+}
+::-webkit-progress-value {
+    background-color: #404040;
+}
+::-moz-progress-bar {
+    background-color: #0006;
+}
+
+.sidebar-block footer {
+  margin-top: 6px;
+}
+.sidebar-title, .main-block-title {
+  background-color: #404040;
+  letter-spacing: -2px;
+  margin-bottom: 10px;
+  padding-left: 5px;
+  color: #fff;
+}
+/* like code editor styles */
+.const-keyword {
+  font-weight: 400;
+  color: #dd99ff;
+}
+.var-keyword {
+  color: #ffb366;
+}
+.op-keyword {
+  color: #99ccff;
+}
+
+/* color for font awesome */
+.fas, .fab {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: #404040;
+}
+.main-block ol {
+  list-style: decimal;
+  margin-left: 15px;
+}
+.main-block ol li {
+  margin-bottom: 5px;
+  line-height: 1rem;
+}
+.learn {
+  padding: 1px 3px;
+  color: #fff;
+}
+.done {
+  background-color: rgba(0, 102, 34, 0.5);
+}
+.now {
+  background-color: rgba(230, 184, 0, 0.5);
+}
+
+.main {
+  padding: 35px;
+}
