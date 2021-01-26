@@ -66,9 +66,9 @@ a:hover, a:active {
 .header:hover #please {
   visibility: visible;
 }
-/* #please {
+#please {
   visibility: hidden;
-} */
+}
 
 
 .main-content {
