@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
 h1 {
   font-size: 3rem;
@@ -12,12 +12,18 @@ h3 {
   font-size: 1.8rem;
   margin-bottom: 6px;
 }
-h4 { font-size: 1.6rem; }
-h5 { font-size: 1.4rem; }
-h6 { font-size: 1.2rem; }
+h4 {
+  font-size: 1.6rem;
+}
+h5 {
+  font-size: 1.4rem;
+}
+h6 {
+  font-size: 1.2rem;
+}
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: #0001;
   font-size: 10px;
   /*
@@ -27,11 +33,12 @@ body {
 }
 
 a {
-  transition: .3s;
+  transition: 0.3s;
   padding: 1px;
   color: #000;
 }
-a:hover, a:active {
+a:hover,
+a:active {
   background-color: #404040;
   color: #fff;
 }
@@ -57,7 +64,6 @@ a:hover, a:active {
 .header > h1 {
   font-weight: bolder;
   text-transform: uppercase;
-
 }
 .proffesion {
   font-size: 1rem;
@@ -70,7 +76,6 @@ a:hover, a:active {
   visibility: hidden;
 }
 
-
 .main-content {
   width: 100%;
   display: flex;
@@ -81,7 +86,9 @@ a:hover, a:active {
   padding: 35px;
 }
 .photo {
-  background: url('../img/photo.jpg') round;
+  background: url("../img/8172.jpg") center;
+  background-size: 120%;
+  background-position: 50% 45%;
   border-radius: 50%;
   margin: -160px auto 35px;
   border: 2px solid #0008;
@@ -89,10 +96,11 @@ a:hover, a:active {
   height: 250px;
   width: 250px;
 }
-.sidebar-block, .main-block {
+.sidebar-block,
+.main-block {
   margin-bottom: 25px;
   font-size: 0.9rem;
-  color: #0008
+  color: #0008;
 }
 .sidebar-block table {
   width: 100%;
@@ -109,19 +117,20 @@ a:hover, a:active {
 }
 
 ::-webkit-progress-bar {
-    background-color: #0006;
+  background-color: #0006;
 }
 ::-webkit-progress-value {
-    background-color: #404040;
+  background-color: #404040;
 }
 ::-moz-progress-bar {
-    background-color: #0006;
+  background-color: #0006;
 }
 
 .sidebar-block footer {
   margin-top: 6px;
 }
-.sidebar-title, .main-block-title {
+.sidebar-title,
+.main-block-title {
   background-color: #404040;
   letter-spacing: -2px;
   margin-bottom: 10px;
@@ -141,7 +150,8 @@ a:hover, a:active {
 }
 
 /* color for font awesome */
-.fas, .fab {
+.fas,
+.fab {
   font-size: 1.2rem;
   line-height: 1.2rem;
   color: #404040;
