@@ -26,10 +26,6 @@ body {
   font-family: "Montserrat", sans-serif;
   background-color: #0001;
   font-size: 10px;
-  /*
-    for rem use
-    1rem = 10px;
-  */
 }
 
 a {
@@ -124,6 +120,11 @@ a:active {
 }
 ::-moz-progress-bar {
   background-color: #0006;
+}
+
+.sidebar-block ul li {
+  display: flex;
+  justify-content: space-between;
 }
 
 .sidebar-block footer {
